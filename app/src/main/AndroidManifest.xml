@@ -7,7 +7,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="34" />
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
 
     <application
@@ -25,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        android:enableOnBackInvokedCallback="true"
     </application>
 
 </manifest>
